@@ -33,6 +33,7 @@
 	display: inline;
 	white-space: nowrap;
 	font-size: 13px;
+	text-decoration: none;
 }
 /* Align top navigation bar. */
 .topnav {
@@ -78,4 +79,27 @@
 	border: none;
 	font-weight: bold;
 	border-radius: 2px;
+}
+/* format footer */
+.footer {
+	background-color: #f2f2f2;
+	height: 40px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+}
+.footer .left a {
+	display: inline-block;
+	margin: 17px 4px;
+	color: #666;
+	float: left;
+}
+.footer .left a:first-child{
+	margin-left: 30px;
+}
+.footer .right a {
+	display: inline-block;
+	margin: 17px 15px;
+	color: #666;
+	float: right;
 }
