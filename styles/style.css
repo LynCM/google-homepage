@@ -1,22 +1,43 @@
 /* align the main elements in the center */
 #main {
-	/*background-color: #ffc;*/
-	margin: 90px auto;
+	margin: 95px auto;
 }
-#main img, input{
+#main img, input, p, a{
 	display: block;
 	margin: 0 auto;
 }
-/* Make search box more tall */
 #main input {
 	margin: 5px auto;
 	line-height: 2.8;
+	color: white;
+}
+#main #buttons {
+	margin: 20px auto;
+	width: 290px;
+}
+#main #buttons input {
+	display: inline-block;
+	margin: 5px 2px;
+	padding: 0 15px;
+	background-color: #f2f2f2;
+	color: #757575;
+	border: none;
+	font-weight: bold;
+}
+#main .french {
+	width: 200px;
+	margin: 0 auto;
+}
+#main .french p, a {
+	margin: 20px auto;
+	display: inline;
+	white-space: nowrap;
+	font-size: 13px;
 }
 /* Align top navigation bar. */
 .topnav {
 	display: block;
 	position: absolute;
-	font-family: arial, sans-serif;
 	font-size: 13px;
 	top: 15px;
 	right: 0px;
@@ -29,6 +50,7 @@
 	margin: 7px 5px;
 	text-decoration: none;
 }
+/* Create apps link */
 .apps {
 	position: relative
 	background-color: white;
@@ -46,12 +68,12 @@
 }
 .topnav form {
     float:right;
-	margin: 0 20px 0 0;
+	margin: 0 40px 0 0;
 }
 .topnav input {
 	background-color: #4285f4;
 	color: white;
-	width: 60px;
+	width: 68px;
 	height: 30px;
 	border: none;
 	font-weight: bold;
