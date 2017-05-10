@@ -1,16 +1,59 @@
 /* align the main elements in the center */
 #main {
-	/* background-color: #ffc; */
+	/*background-color: #ffc;*/
 	margin: 90px auto;
 }
-
 #main img, input{
 	display: block;
 	margin: 0 auto;
 }
-
 /* Make search box more tall */
 #main input {
 	margin: 5px auto;
 	line-height: 2.8;
+}
+/* Align top navigation bar. */
+.topnav {
+	display: block;
+	position: absolute;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	top: 15px;
+	right: 0px;
+	height: 3%;
+}
+.topnav a {
+	color: #47476b;
+	display: inline-block;
+	position: relative;
+	margin: 7px 5px;
+	text-decoration: none;
+}
+.apps {
+	position: relative
+	background-color: white;
+	width: 20px;
+	height: 20px;
+	margin: 6px 16px;
+	float: right;
+}
+.apps a{
+	background-color: #47476b;
+	width: 20%;
+	height: 20%;
+	margin: 1px;
+	float: left;
+}
+.topnav form {
+    float:right;
+	margin: 0 20px 0 0;
+}
+.topnav input {
+	background-color: #4285f4;
+	color: white;
+	width: 60px;
+	height: 30px;
+	border: none;
+	font-weight: bold;
+	border-radius: 2px;
 }
