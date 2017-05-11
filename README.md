@@ -1,0 +1,3 @@
+This is the first major HTML/CSS assignment for the Odin Project - recreate the Google homepage! (Details here: http://www.theodinproject.com/web-development-101/html-css) 
+
+This project mainly focused on properly aligning elements and styling them correctly. Since this was my first attempt to actually make something with HTML/CSS, I learned many things that aren't immediately clear from just doing tutorials. I would like to make the page more interactive with proper responses when hovering over links, but I will save that for a later project. For now, Gooble is complete.
